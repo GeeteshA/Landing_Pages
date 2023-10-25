@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:  hsla(36, 22%, 45%, 0.803);/*hsl(346deg 17% 70%);*/
+    display: flex;
+    
+}
+
+#part1 {
+    height: 100%;
+    width: 25%;
+  
+}
+
+#part2 {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(23, 223, 223);
+    background-image: url(image/final.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(36, 22%, 45%, 0.327);
+}
+
+#part3 {
+    height: 100%;
+    width: 15%;
+  
+}
+
+#text-div {
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#text-div>h1{
+    font-size: 85px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    letter-spacing: 8px;
+    font-weight: 600;
+    line-height: 78px;
+    text-transform: uppercase;
+}
+
+#small-img-div {
+    height: 300px;
+    width: 260px;
+    background-image: url(image/shraddha.jfif);
+    /* background-color: red; */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 30%;
+    left: 200%;
+    transform: translate(0,-10%);
+}
+
+#verticle-text{
+    position: absolute;
+    top: 42%;
+    left: 180%;
+    transform-origin: 0% 0%;
+}
+
+#verticle-text>h1{
+    font-size: 55px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transform: rotate(90deg);
+    color: transparent;
+    letter-spacing: 9px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+
+#nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    left: 5%;
+    top: 5%;
+}
+
+#nav img {
+    height: 50px;
+}
+
+#nav h5 {
+    font-size: 20px;
+    color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+}
